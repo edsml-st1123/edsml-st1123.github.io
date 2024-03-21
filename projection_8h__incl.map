@@ -1,0 +1,29 @@
+<map id="/Users/st1123/CLionProjects/advanced&#45;programming&#45;group&#45;linear&#45;regression/src/projection/projection.h" name="/Users/st1123/CLionProjects/advanced&#45;programming&#45;group&#45;linear&#45;regression/src/projection/projection.h">
+<area shape="rect" id="Node000001" title="this header file contains all the declarations of projections methods that can be applied to a volume..." alt="" coords="286,5,488,76"/>
+<area shape="rect" id="Node000002" href="$_image_8h.html" title="this header file contains all required functions and definitions for the Image class,..." alt="" coords="239,198,359,223"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="371,78,315,185,310,183,366,75"/>
+<area shape="rect" id="Node000010" href="$volume_8h.html" title="this header file contains the declarations of the Volume class that handles a collection of images as..." alt="" coords="390,124,522,150"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="414,75,440,110,436,113,410,78"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="489,271,560,297"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="338,221,474,264,473,269,336,226"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="584,271,638,297"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="360,221,570,268,568,273,359,226"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="662,271,720,297"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="360,218,488,238,647,268,646,274,487,243,359,223"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="134,271,213,297"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="279,226,209,266,207,261,276,222"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="237,271,302,297"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="296,225,283,258,278,256,292,223"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="5,271,110,297"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="259,226,114,269,112,264,257,221"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="325,271,465,297"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="317,222,368,260,365,264,314,226"/>
+<area shape="poly" id="edge12_Node000010_Node000002" title=" " alt="" coords="431,153,341,193,338,188,428,148"/>
+<area shape="poly" id="edge16_Node000010_Node000003" title=" " alt="" coords="481,148,508,168,531,197,537,227,534,257,529,256,532,227,526,199,505,172,478,152"/>
+<area shape="poly" id="edge14_Node000010_Node000004" title=" " alt="" coords="482,148,516,168,551,196,578,226,599,256,594,259,574,229,548,200,513,173,479,152"/>
+<area shape="poly" id="edge13_Node000010_Node000005" title=" " alt="" coords="486,148,530,169,579,195,626,228,667,259,663,263,623,232,576,200,528,173,483,153"/>
+<area shape="poly" id="edge10_Node000010_Node000008" title=" " alt="" coords="396,153,315,173,228,200,154,233,92,266,90,261,152,228,226,195,314,167,395,148"/>
+<area shape="poly" id="edge11_Node000010_Node000009" title=" " alt="" coords="451,151,425,199,405,257,400,256,420,197,446,149"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="434,198,516,223"/>
+<area shape="poly" id="edge15_Node000010_Node000011" title=" " alt="" coords="462,149,470,182,465,183,457,151"/>
+</map>
