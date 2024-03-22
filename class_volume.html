@@ -94,6 +94,7 @@ $(function(){initNavTree('class_volume.html',''); initResizable(); });
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_volume-members.html">List of all members</a>  </div>
@@ -120,6 +121,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9976a6226186db4a70aa9913b009b6df" id="r_a9976a6226186db4a70aa9913b009b6df"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="class_image.html">Image</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9976a6226186db4a70aa9913b009b6df">getImages</a> () const</td></tr>
 <tr class="memdesc:a9976a6226186db4a70aa9913b009b6df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the images in the volume.  <br /></td></tr>
 <tr class="separator:a9976a6226186db4a70aa9913b009b6df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a0b93802d58e9a7eabe089fa96efaeb2a" id="r_a0b93802d58e9a7eabe089fa96efaeb2a"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; fs::directory_entry &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b93802d58e9a7eabe089fa96efaeb2a">getFileEntries</a> (const std::string &amp;directoryPath)</td></tr>
+<tr class="memdesc:a0b93802d58e9a7eabe089fa96efaeb2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the filenames in a directory.  <br /></td></tr>
+<tr class="separator:a0b93802d58e9a7eabe089fa96efaeb2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -216,6 +223,35 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0b93802d58e9a7eabe089fa96efaeb2a" name="a0b93802d58e9a7eabe089fa96efaeb2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b93802d58e9a7eabe089fa96efaeb2a">&#9670;&#160;</a></span>getFileEntries()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; fs::directory_entry &gt; Volume::getFileEntries </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>directoryPath</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves the filenames in a directory. </p>
+<dl class="section return"><dt>Returns</dt><dd>A vector containing the filenames in the directory.</dd></dl>
+<p>Finds all the files names in the specified directory and returns them in a vector. </p><dl class="section author"><dt>Author</dt><dd>Shengzhi Tian </dd></dl>
+
+</div>
+</div>
 <a id="a9976a6226186db4a70aa9913b009b6df" name="a9976a6226186db4a70aa9913b009b6df"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9976a6226186db4a70aa9913b009b6df">&#9670;&#160;</a></span>getImages()</h2>
 

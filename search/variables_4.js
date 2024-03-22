@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['w_0',['w',['../class_image.html#a5a1c5528c889b0438bc2dc0c0ee94dbe',1,'Image']]]
+  ['logging_0',['logging',['../class_image.html#acee7ae4f09f61f29490df0ef87a928aa',1,'Image']]]
 ];

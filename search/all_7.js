@@ -4,5 +4,6 @@ var searchData=
   ['image_20processing_20project_20group_20linear_20regression_1',['Welcome to Advanced Programming Image Processing Project - Group Linear Regression',['../index.html',1,'']]],
   ['image_2ecpp_2',['Image.cpp',['../_image_8cpp.html',1,'']]],
   ['image_2eh_3',['Image.h',['../_image_8h.html',1,'']]],
-  ['images_4',['images',['../class_volume.html#a05b3adc655ae01f5e4f8929d9879017d',1,'Volume']]]
+  ['images_4',['images',['../class_volume.html#a05b3adc655ae01f5e4f8929d9879017d',1,'Volume']]],
+  ['installation_3a_5',['Installation:',['../index.html#autotoc_md4',1,'']]]
 ];

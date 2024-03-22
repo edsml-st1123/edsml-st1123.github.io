@@ -37,6 +37,7 @@ var menudata={children:[
 {text:"g",url:"functions.html#index_g"},
 {text:"h",url:"functions.html#index_h"},
 {text:"i",url:"functions.html#index_i"},
+{text:"l",url:"functions.html#index_l"},
 {text:"m",url:"functions.html#index_m"},
 {text:"p",url:"functions.html#index_p"},
 {text:"q",url:"functions.html#index_q"},
@@ -69,5 +70,4 @@ var menudata={children:[
 {text:"File Members",url:"globals.html",children:[
 {text:"All",url:"globals.html"},
 {text:"Functions",url:"globals_func.html"},
-{text:"Enumerations",url:"globals_enum.html"},
 {text:"Macros",url:"globals_defs.html"}]}]}]}

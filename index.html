@@ -95,26 +95,59 @@ $(function(){initNavTree('index.html',''); initResizable(); });
   <div class="headertitle"><div class="title">Welcome to Advanced Programming <a class="el" href="class_image.html" title="The Image class for loading, saving, and storing image data.">Image</a> Processing Project - Group Linear Regression </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="md_mainpage"></a> This project aims to provide a comprehensive framework for image processing tasks, focusing on linear regression techniques. Whether you're a beginner or an expert in image processing, this project offers a wide range of functionalities to handle various aspects of image analysis and manipulation.</p>
+<div class="textblock"><p><a class="anchor" id="md_mainpage"></a> This project aims to provide a comprehensive framework for image processing tasks, focusing on linear regression techniques. Whether you're a beginner or an expert in image processing, this project offers a wide range of functionalities to handle various aspects of image analysis and manipulation, including 2D and 3D image processing, filtering, projection, and slicing.</p>
 <h2><a class="anchor" id="autotoc_md1"></a>
-Features</h2>
+Features:</h2>
 <ul>
-<li><b>2D and 3D <a class="el" href="class_image.html" title="The Image class for loading, saving, and storing image data.">Image</a> Processing</b>: Perform image processing tasks on both 2D and 3D images, including filtering, projection, slicing, and more.</li>
-<li><b>User-friendly Interface</b>: The UI interface allows easy interaction with the functionalities provided by the project.</li>
-<li><b>Extensible Architecture</b>: The project is designed with modularity in mind, allowing for easy extension and integration of new features.</li>
+<li><b>2D and 3D <a class="el" href="class_image.html" title="The Image class for loading, saving, and storing image data.">Image</a> Processing</b>: Supports both 2D and 3D image manipulations.</li>
+<li><b>Comprehensive Filters and Projections</b>: Includes a variety of filters such as Grayscale, Brightness, Histogram Equalisation, and Edge Detection, along with 3D data volume filters and orthographic projections.</li>
+<li><b>User-friendly Interface</b>: Easy interaction with the project's functionalities.</li>
+<li><b>Extensible Architecture</b>: Designed with modularity in mind for easy extension.</li>
 </ul>
+<p><b>NB：We have uploaded 10 scan images to the <code>Scans/confuciusornis</code> file which is just for testing purposes using <code>Github Action</code>. These images are located in the Scans/confuciusornis directory within this repository, intended for testing the functionalities of 3D image processing framework.</b></p>
 <h2><a class="anchor" id="autotoc_md2"></a>
-Getting Started</h2>
+Getting Started:</h2>
 <p>To get started with the project, follow these steps:</p>
 <ol type="1">
 <li>Clone the repository to your local machine.</li>
-<li>Install the necessary dependencies as listed in the <code>requirements.txt</code> file.</li>
 <li>Explore the provided functionalities in the <code>src</code> directory.</li>
 <li>Refer to the documentation for detailed information on each module and class.</li>
 <li>Start experimenting with image processing tasks using the provided utilities.</li>
 </ol>
 <h2><a class="anchor" id="autotoc_md3"></a>
-Contributors</h2>
+Prerequisites:</h2>
+<p>Ensure you have a C++17 compliant compiler installed. This project uses features introduced in C++17, so compatibility with this or later standards is required.</p>
+<h2><a class="anchor" id="autotoc_md4"></a>
+Installation:</h2>
+<ol type="1">
+<li>Clone the repository to your local machine: <div class="fragment"><div class="line">git clone https://github.com/ese-msc-2023/advanced-programming-group-linear-regression.git</div>
+</div><!-- fragment --></li>
+<li>Navigate to the project directory: <div class="fragment"><div class="line">cd advanced-programming-group-linear-regression</div>
+</div><!-- fragment --></li>
+<li>Build the project:</li>
+</ol>
+<p><b>Using g++</b>: </p><div class="fragment"><div class="line">g++ -std=c++20 -o main src/main.cpp src/filter/filter.cpp src/Image/Image.cpp src/projection/projection.cpp src/slice/slice.cpp src/utility/utility.cpp src/volume/volume.cpp</div>
+<div class="line">./main</div>
+</div><!-- fragment --><p> <b>Using CMake</b>: </p><div class="fragment"><div class="line">mkdir build &amp;&amp; cd build</div>
+<div class="line">cmake ..</div>
+<div class="line">make</div>
+</div><!-- fragment --><p> <b>Running the Application</b>: You can run the executable provided in the build directory. Use the following command to start processing images or data volumes: </p><div class="fragment"><div class="line">./main_win  # for win</div>
+<div class="line">./main_mac  # for mac</div>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md5"></a>
+Testing:</h2>
+<p>To run the unit tests included with this project, navigate to the root directory and execute the test suite: </p><div class="fragment"><div class="line">./test_program # needs to change to the final name</div>
+</div><!-- fragment --><p>Or build the testing framework yourself: </p><div class="fragment"><div class="line">g++ -std=c++20 -o test src/test_framework.cpp src/filter/filter.cpp src/Image/Image.cpp src/projection/projection.cpp src/slice/slice.cpp src/utility/utility.cpp src/volume/volume.cpp</div>
+<div class="line">./test</div>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md6"></a>
+Documentation:</h2>
+<p>In this project, Doxygen was used to generate documentation.</p>
+<p>You can view the <code>Documentation</code> of this project through the link below:</p>
+<p><a href="https://edsml-st1123.github.io/">Documentation: https://edsml-st1123.github.io/</a></p>
+<h2><a class="anchor" id="autotoc_md7"></a>
+CT Scans Dataset:</h2>
+<p>You can download the CT scans dataset via this link here: <a href="https://imperiallondon-my.sharepoint.com/:u:/g/personal/tmd02_ic_ac_uk/EafXMuNsbcNGnRpa8K62FjkBvIKvCswl1riz7hPDHpHdSQ">https://imperiallondon-my.sharepoint.com/:u:/g/personal/tmd02_ic_ac_uk/EafXMuNsbcNGnRpa8K62FjkBvIKvCswl1riz7hPDHpHdSQ</a></p>
+<h2><a class="anchor" id="autotoc_md8"></a>
+Contributors:</h2>
 <ul>
 <li>Shengzhi Tian (edsml-st1123)</li>
 <li>Berat Yildizgorer (asce-by1123)</li>
@@ -123,10 +156,15 @@ Contributors</h2>
 <li>Yunting Tao (acse-yt2323)</li>
 <li>Chuhan Li (edsml-ll423)</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md4"></a>
-License</h2>
+<h2><a class="anchor" id="autotoc_md9"></a>
+License:</h2>
 <p>This project is licensed under the MIT License - see the <code>LICENSE</code> file for details.</p>
-<p>Feel free to contribute to the project by submitting pull requests, reporting issues, or suggesting new features. Happy coding! </p>
+<h2><a class="anchor" id="autotoc_md10"></a>
+Acknowledgments:</h2>
+<p>We thank all those who provided feedback and suggestions to make this project better, especially all valuable guidelines from Dr. Thomas, and GTAs.</p>
+<p>For further assistance or to report issues, please reach out to us via GitHub issues.</p>
+<p>Feel free to contribute to the project by submitting pull requests, reporting issues, or suggesting new features.</p>
+<p>Happy coding! </p>
 </div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"/>
 </div><!-- contents -->
